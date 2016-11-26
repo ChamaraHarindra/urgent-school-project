@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Create Profile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap CSS cdn -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<!-- Google fonts - Noto Sans -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+<!-- Main CSS file -->
+<link rel="stylesheet" href="dist/css/main.css"/>
+</head>
+<body>
+<!-- Blurred background -->
+<div class="login-bg-wrapper"><div class="login-bg"></div></div>
+<section class="wrapper">
+    <header>
+        <nav class="navbar navbar--top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Test Logo</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Create <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu--nav">
+                                <li><a href="create-profile.html">Profile</a></li>
+                                <li><a href="create-profile-group.html">Profile Groups</a></li>
+                                <li><a href="create-event.html">Events</a></li>
+                                <li><a href="create-message">Messages</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-menu--nav">
+                                <li><a href="view-profile.html">Profiles</a></li>
+                                <li><a href="view-profile-group.html">Profile Groups</a></li>
+                                <li><a href="view-event.html">Events</a></li>
+                                <li><a href="view-message.html">Messages</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="login.html" class="button button--logout"><span class="glyphicon glyphicon-off icon-gap"></span> Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="content-area container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12"><h1>Create Profile</h1></div>
+        </div>
+        <form class="form">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">First Name</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Middle Name</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Last Name</label>
+                        <input  class="form__textbox" type="text"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Email</label>
+                        <input class="form__textbox" type="email"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Alternate Email</label>
+                        <input class="form__textbox" type="email"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Home Phone</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Mobile Phone</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Work Phone</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Work Ext.</label>
+                        <input class="form__textbox" type="text"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="form__group">
+                        <label class="form__label">Profile Group</label>
+                        <select class="form__textbox">
+                            <option value="Select Group">Select Group</option>
+                            <option value="Group 01">Group 01</option>
+                            <option value="Group 02">Group 02</option>
+                            <option value="Group 03">Group 03</option>
+                            <option value="Group 04">Group 04</option>
+                            <option value="Group 05">Group 05</option>
+                            <option value="Group 06">Group 06</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-v"></div>
+            <div class="row"><div class="col-md-12"><h2>Address Details</h2></div></div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Permenent Address</h3>
+                            <div class="form__group">
+                                <label class="form__label">Home Address 01</label>
+                                <textarea class="form__textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form__group">
+                                <label class="form__label">Home Address 02</label>
+                                <textarea class="form__textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">State</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select State</option>
+                                    <option value="Group 01">State 01</option>
+                                    <option value="Group 02">State 02</option>
+                                    <option value="Group 03">State 03</option>
+                                    <option value="Group 04">State 04</option>
+                                    <option value="Group 05">State 05</option>
+                                    <option value="Group 06">State 06</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">City</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select City</option>
+                                    <option value="Group 01">City 01</option>
+                                    <option value="Group 02">City 02</option>
+                                    <option value="Group 03">City 03</option>
+                                    <option value="Group 04">City 04</option>
+                                    <option value="Group 05">City 05</option>
+                                    <option value="Group 06">City 06</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">Zip Code</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select Zip Code</option>
+                                    <option value="Group 01">Zip Code 01</option>
+                                    <option value="Group 02">Zip Code 02</option>
+                                    <option value="Group 03">Zip Code 03</option>
+                                    <option value="Group 04">Zip Code 04</option>
+                                    <option value="Group 05">Zip Code 05</option>
+                                    <option value="Group 06">Zip Code 06</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Mailing Address</h3>
+                            <div class="form__group">
+                                <label class="form__label">Mailing Address 01</label>
+                                <textarea class="form__textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form__group">
+                                <label class="form__label">Mailing Address 02</label>
+                                <textarea class="form__textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">State</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select State</option>
+                                    <option value="Group 01">State 01</option>
+                                    <option value="Group 02">State 02</option>
+                                    <option value="Group 03">State 03</option>
+                                    <option value="Group 04">State 04</option>
+                                    <option value="Group 05">State 05</option>
+                                    <option value="Group 06">State 06</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">City</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select City</option>
+                                    <option value="Group 01">City 01</option>
+                                    <option value="Group 02">City 02</option>
+                                    <option value="Group 03">City 03</option>
+                                    <option value="Group 04">City 04</option>
+                                    <option value="Group 05">City 05</option>
+                                    <option value="Group 06">City 06</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-sm-6">
+                            <div class="form__group">
+                                <label class="form__label">Zip Code</label>
+                                <select class="form__textbox">
+                                    <option value="Select Group">Select Zip Code</option>
+                                    <option value="Group 01">Zip Code 01</option>
+                                    <option value="Group 02">Zip Code 02</option>
+                                    <option value="Group 03">Zip Code 03</option>
+                                    <option value="Group 04">Zip Code 04</option>
+                                    <option value="Group 05">Zip Code 05</option>
+                                    <option value="Group 06">Zip Code 06</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-v"></div>
+            <div class="gap-v"></div>
+            <div class="form__group pull-right">
+                <input type="submit" value="Add Profile" class="button button--primary button--lg"/>
+                <input type="reset" value="Reset" class="button button--reset button--lg"/>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="text-center">Copyright (c) 2016 Copyright Holder All Rights Reserved.</div>
+    </footer>
+</section>
+<!-- Jquery cdn -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Bootstrap JS cdn -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

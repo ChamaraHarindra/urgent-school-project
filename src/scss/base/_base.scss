@@ -1,0 +1,77 @@
+a,
+a:focus {
+  color: $secondary-color;
+}
+
+a:hover,
+a:visited,
+a:focus {
+  color: $quad-color;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+
+html, body {
+    background: $gray;
+}
+
+html, body {
+    font-family: $primary-font;
+    font-weight: normal;
+    color: $font-color;
+}
+
+.wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+header {
+    width: 100%;
+    background: $secondary-color;
+}
+
+
+.icon-gap {
+    margin-right: 6px;
+}
+
+.content-area {
+    background: $white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    padding: 0 0 15px;
+    margin: 0 0 30px;
+    border-bottom: solid 1px lighten($border-color, 18%);
+    font-size: 26px;
+}
+
+h2 {
+    @extend h1;
+    font-size: 20px;
+    font-weight: bold;
+    color: $secondary-color;
+}
+
+h3 {
+    @extend h1;
+    font-size: 14px;
+    color: $secondary-color;
+    margin-bottom: 10px;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 80%;
+    color: $white;
+}
+
+.gap-v {
+    margin-bottom: 20px;
+    clear: both;
+}

@@ -1,0 +1,23 @@
+@mixin msg-bg($bg) {
+  background: $bg;
+}
+
+.msg {
+    overflow: hidden;
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 7px 15px;
+    color: $white;
+    margin: 0 0 15px 0;
+    border-radius: 3px;
+
+    &.msg--primary {
+        @include msg-bg($gray);
+    }
+
+    &.msg--error {
+        @include msg-bg($danger-color);
+        font-size: 90%;
+    }
+}

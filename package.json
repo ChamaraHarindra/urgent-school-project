@@ -1,0 +1,32 @@
+{
+  "name": "urgent-school-project",
+  "version": "1.0.0",
+  "description": "notification app for schools",
+  "main": "login.html",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "bourbon": "^4.2.7",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChamaraHarindra/urgent-school-project.git"
+  },
+  "keywords": [
+    "notification",
+    "project"
+  ],
+  "author": "chamara harindra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChamaraHarindra/urgent-school-project/issues"
+  },
+  "homepage": "https://github.com/ChamaraHarindra/urgent-school-project#readme"
+}

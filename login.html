@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login Form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap CSS cdn -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<!-- Google fonts - Noto Sans -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+<!-- Main CSS file -->
+<link rel="stylesheet" href="dist/css/main.css"/>
+</head>
+<body>
+<!-- Blurred background -->
+<div class="login-bg-wrapper"><div class="login-bg"></div></div>
+<div class="container">
+    <div class="row">
+        <div class="card card--login">
+            <form class="form">
+                <div class="login-box-logo text-center">Test Logo</div>
+                <div class="login-box-inputs"><input type="text" class="form__textbox" placeholder="Username"/></div>
+                <div class="login-box-inputs"><input type="password" class="form__textbox" placeholder="Password"/></div>
+                <div class="msg msg--error">Error message goes here</div>
+                <div class="login-box-submits">
+                    <label class="check-box">
+                        <input type="checkbox" class="check-box__input"/>
+                        <span class="check-box__text"><small>Remember me</small></span>
+                    </label>
+                    <input type="submit" class="button button--primary pull-right" value="Log In"/>
+                </div>
+                <a href="#"><small>Forgot password?</small></a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Jquery cdn -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Bootstrap JS cdn -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

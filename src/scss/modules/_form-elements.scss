@@ -1,0 +1,84 @@
+.form {
+    .form__textbox {
+        width: 100%;
+        padding: 6px 12px;
+        border: 1px solid $border-color;
+        background: $white;
+        outline: none;
+        height: 32px;
+        border-radius: 3px;
+    }
+
+    .form__textarea {
+        @extend .form__textbox;
+        height: 80px;
+    }
+
+    .form__label {
+        display: block;
+        font-weight: normal;
+        font-size: 90%;
+        color: lighten($font-color, 10%);
+    }
+
+    .form__group {
+        overflow: hidden;
+        margin-bottom: 20px;
+        width: auto;
+    }
+}
+
+//button mixin
+@mixin button-bg($bg) {
+  background: $bg;
+  color: $white;
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+    color: $white;
+  }
+  &:active {
+    background:darken($bg,25%);
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.button {
+     color: $white;
+     text-decoration: none;
+     padding: 6px 12px;
+     border-radius:3px;
+     text-align: center;
+     border: none;
+     margin: 0 5px 0;
+
+     &.button--primary {
+        @include button-bg($secondary-color);
+     }
+
+     &.button--reset {
+        @include button-bg($gray);
+     }
+
+     &.button--logout {
+        @include button-bg($danger-color);
+        margin: 8px 20px 0 20px;
+        border-radius: 10px;
+        font-size: 90%;
+        padding: 7px 12px;
+
+     }
+
+     &.button--lg {
+         padding: 8px 15px;
+     }
+}
+
+.check-box {
+    font-weight: normal;
+
+    .checkbox__input {
+        margin-right: 10px;
+    }
+}
